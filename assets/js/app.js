@@ -131,7 +131,7 @@ function ShowSinglePage(id) {
 
     // set local storage data
     localStorage.setItem('viewFood', JSON.stringify(id))
-    window.location.href = 'single-meal.html'
+    window.location.path = '/single-meal.html'
 
 }
 
